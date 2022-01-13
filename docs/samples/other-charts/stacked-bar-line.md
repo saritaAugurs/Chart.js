@@ -71,6 +71,7 @@ const DATA_COUNT = 7;
 const NUMBER_CFG = {count: DATA_COUNT, min: 0, max: 100};
 
 const labels = Utils.months({count: 7});
+console.log(labels, 'labels')
 const data = {
   labels: labels,
   datasets: [
